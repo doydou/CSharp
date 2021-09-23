@@ -6,7 +6,9 @@ namespace lesson_转义字符
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("转义字符!");
+            
+            
         }
     }
 }
