@@ -28,6 +28,7 @@ namespace lesson_4
             string MyName = "dskafj";
 
             //潜在知识点——C#中对大小写是敏感的 是区分的
+            #endregion
         }
     }
 }
