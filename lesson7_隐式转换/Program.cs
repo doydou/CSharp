@@ -27,7 +27,11 @@ namespace ConsoleApp1
             #endregion
 
             #endregion
-
+            /*总结：
+             高精度（大范围）装低精度（小范围）
+             double—————>float—————>整数（无符号和有符号）—————>char
+             decimal—————>整数（无符号和有复好）—————>char
+             string 和bool 不参与隐式转换规则*/
 
             #endregion
         }
