@@ -16,6 +16,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lesson4_命名规范", "les
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lesson8_显示转换", "lesson8_显示转换\lesson8_显示转换.csproj", "{821DA716-9086-4BA9-937E-B2FA01B62B4B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lesson12_条件运算符", "lesson12_条件运算符\lesson12_条件运算符.csproj", "{E7EC559E-6461-485E-94EE-20FCE466AD28}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,5 +56,9 @@ Global
 		{821DA716-9086-4BA9-937E-B2FA01B62B4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{821DA716-9086-4BA9-937E-B2FA01B62B4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{821DA716-9086-4BA9-937E-B2FA01B62B4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7EC559E-6461-485E-94EE-20FCE466AD28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7EC559E-6461-485E-94EE-20FCE466AD28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7EC559E-6461-485E-94EE-20FCE466AD28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7EC559E-6461-485E-94EE-20FCE466AD28}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
