@@ -14,11 +14,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lesson3_变量本质", "les
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lesson4_命名规范", "lesson4_命名规范\lesson4_命名规范.csproj", "{E294DA23-B523-4E6C-B5AC-437A67FB25DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lesson8_显示转换", "lesson8_显示转换\lesson8_显示转换.csproj", "{821DA716-9086-4BA9-937E-B2FA01B62B4B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lesson8_类型转换", "lesson8_类型转换\lesson8_类型转换.csproj", "{821DA716-9086-4BA9-937E-B2FA01B62B4B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lesson12_条件运算符", "lesson12_条件运算符\lesson12_条件运算符.csproj", "{E7EC559E-6461-485E-94EE-20FCE466AD28}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lesson9_异常捕获", "lesson9_异常捕获\lesson9_异常捕获.csproj", "{739F3CE3-A7DF-444B-B642-CA78E4B90D44}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lesson10_算数运算", "lesson10_算数运算\lesson10_算数运算.csproj", "{58EB25B4-FF8A-4035-9B35-58C76486E655}"
 EndProject
@@ -64,10 +62,6 @@ Global
 		{E7EC559E-6461-485E-94EE-20FCE466AD28}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E7EC559E-6461-485E-94EE-20FCE466AD28}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E7EC559E-6461-485E-94EE-20FCE466AD28}.Release|Any CPU.Build.0 = Release|Any CPU
-		{739F3CE3-A7DF-444B-B642-CA78E4B90D44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{739F3CE3-A7DF-444B-B642-CA78E4B90D44}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{739F3CE3-A7DF-444B-B642-CA78E4B90D44}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{739F3CE3-A7DF-444B-B642-CA78E4B90D44}.Release|Any CPU.Build.0 = Release|Any CPU
 		{58EB25B4-FF8A-4035-9B35-58C76486E655}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{58EB25B4-FF8A-4035-9B35-58C76486E655}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58EB25B4-FF8A-4035-9B35-58C76486E655}.Release|Any CPU.ActiveCfg = Release|Any CPU
