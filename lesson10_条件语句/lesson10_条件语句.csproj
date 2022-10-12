@@ -3,6 +3,7 @@
     <PropertyGroup>
         <OutputType>Exe</OutputType>
         <TargetFramework>net5.0</TargetFramework>
+        <RootNamespace>lesson12_条件运算符</RootNamespace>
     </PropertyGroup>
 
 </Project>

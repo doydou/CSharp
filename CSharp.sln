@@ -4,7 +4,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lesson5_常量", "lesson5_�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lesson6_转义字符", "lesson6_转义字符\lesson6_转义字符.csproj", "{683B0689-0278-48EA-8F0B-30245F7767C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lesson7_隐式转换", "lesson7_隐式转换\lesson7_隐式转换.csproj", "{10730B64-C484-419F-BED4-866C7A613EF3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lesson7_类型转换", "lesson7_类型转换\lesson7_类型转换.csproj", "{10730B64-C484-419F-BED4-866C7A613EF3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lesson1_控制台", "lesson1_控制台\lesson1_控制台.csproj", "{99DB8FA8-4C6D-408E-87E8-D9E8CA3F3173}"
 EndProject
@@ -14,11 +14,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lesson3_变量本质", "les
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lesson4_命名规范", "lesson4_命名规范\lesson4_命名规范.csproj", "{E294DA23-B523-4E6C-B5AC-437A67FB25DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lesson8_类型转换", "lesson8_类型转换\lesson8_类型转换.csproj", "{821DA716-9086-4BA9-937E-B2FA01B62B4B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lesson10_条件语句", "lesson10_条件语句\lesson10_条件语句.csproj", "{E7EC559E-6461-485E-94EE-20FCE466AD28}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lesson12_条件运算符", "lesson12_条件运算符\lesson12_条件运算符.csproj", "{E7EC559E-6461-485E-94EE-20FCE466AD28}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lesson9_运算符", "lesson9_运算符\lesson9_运算符.csproj", "{58EB25B4-FF8A-4035-9B35-58C76486E655}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lesson10_算数运算", "lesson10_算数运算\lesson10_算数运算.csproj", "{58EB25B4-FF8A-4035-9B35-58C76486E655}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lesson8_异常捕获", "lesson8_异常捕获\lesson8_异常捕获.csproj", "{E942229D-5A0E-43BA-9B95-65EE9694F906}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -54,10 +54,6 @@ Global
 		{E294DA23-B523-4E6C-B5AC-437A67FB25DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E294DA23-B523-4E6C-B5AC-437A67FB25DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E294DA23-B523-4E6C-B5AC-437A67FB25DB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{821DA716-9086-4BA9-937E-B2FA01B62B4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{821DA716-9086-4BA9-937E-B2FA01B62B4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{821DA716-9086-4BA9-937E-B2FA01B62B4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{821DA716-9086-4BA9-937E-B2FA01B62B4B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E7EC559E-6461-485E-94EE-20FCE466AD28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E7EC559E-6461-485E-94EE-20FCE466AD28}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E7EC559E-6461-485E-94EE-20FCE466AD28}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -66,5 +62,9 @@ Global
 		{58EB25B4-FF8A-4035-9B35-58C76486E655}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58EB25B4-FF8A-4035-9B35-58C76486E655}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58EB25B4-FF8A-4035-9B35-58C76486E655}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E942229D-5A0E-43BA-9B95-65EE9694F906}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E942229D-5A0E-43BA-9B95-65EE9694F906}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E942229D-5A0E-43BA-9B95-65EE9694F906}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E942229D-5A0E-43BA-9B95-65EE9694F906}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
