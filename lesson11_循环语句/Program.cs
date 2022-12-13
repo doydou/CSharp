@@ -38,21 +38,29 @@ namespace lesson11_循环语句
 
 
             #endregion
-            //输出1-100之间的整数
+
+            #region 输出1-100之间的整数
             for (int i = 1; i <= 100; i++)
             {
                 Console.WriteLine(i);
             }
+            
+            #endregion
 
-            //求1-100之间的所有偶数的和
+
+            #region 求1-100之间的所有偶数的和
+            
             int sum = 0;
+            
             for (int i = 0; i <= 100; i = i + 2)
             {
                 sum = sum + i;
             }
-            Console.WriteLine(sum);
             
-            //在控制台上输出九九乘法表
+            Console.WriteLine(sum);
+            #endregion
+
+            #region 在控制台上输出九九乘法表
             
             for (int i = 1 ; i < 10 ; i++)
             {
@@ -62,8 +70,97 @@ namespace lesson11_循环语句
                 }
                 Console.WriteLine();
             }
+            
+            #endregion
 
-            Console.ReadKey();
+            #region 在控制台输出如下10*10的空心星型方阵
+            /*  **********
+                *        *
+                *        *
+                *        *
+                *        *
+                *        *
+                *        *
+                *        *
+                *        *
+                **********   */
+
+
+            for (int j = 0; j < 10; j++)//表示行数
+            {
+                for (int i = 0; i < 10; i++)
+                    {
+                        if (j==0 || j==9)
+                        {
+                            Console.Write('*');
+                        }
+                        else
+                        {
+                            if (i == 0 || i == 9)
+                            {
+                                Console.Write('*');
+                            }
+                            else
+                            {
+                                Console.Write(' ');
+                            }
+                        }
+                    }
+            Console.WriteLine();    
+            }
+            #endregion
+
+            #region 在控制台上输出如下10 * 10的三角形方阵
+
+            for (int i = 0; i < 10; i++)
+            {
+                for (int j = 0; j < 10; j++)
+                {
+                    if ( j>i )
+                    {
+                        Console.Write(' ');
+                    }
+                    else
+                    {
+                        Console.Write('*');
+                    }
+                }    
+            Console.WriteLine();
+            }
+            #endregion
+
+            #region 在控制台上输出如下10行的三角形方阵
+            //         *            1    1   -> 2i - 1    9    10 - i
+            //        ***           2    3   -> 2i - 1    8    10 - i
+            //       *****          3    5                7    10 - i
+            //      *******         4    7                6    10 - i
+            //     *********        5    9                5
+            //    ***********       6    11               4
+            //   *************      7    13               3
+            //  ***************     8    15               2
+            // *****************    9    17               1
+            //*******************   10   19               0    10 - i
+
+
+            int m = 9;
+            for (int i = 0; i < 10; i++)
+            {
+                for (int j = 0; j < 20; j++)
+                {
+                    if (j<m)
+                    {
+                        Console.Write(' ');
+                    }
+                    else
+                    {
+                        Console.Write('*');
+                    }
+                }
+            Console.WriteLine();
+            }
+            
+
+            #endregion
         }
     }
 }
